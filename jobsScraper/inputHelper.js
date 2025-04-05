@@ -1,3 +1,4 @@
+// only for testing purposes - to get query string from the console
 import readline from 'readline';
 
 const rl = readline.createInterface({
