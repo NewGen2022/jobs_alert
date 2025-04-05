@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import { upworkScraperController } from './controllers.js';
+import { upworkScraperController } from './upWorkController.js';
 
 router.get('/jobs', async (req, res) => {
     try {
