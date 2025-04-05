@@ -1,6 +1,16 @@
+/**
+ * DISCLAIMER:
+ * This code is provided for educational and learning purposes only.
+ * It is not intended for production use, nor is it intended to encourage or facilitate
+ * unauthorized scraping of any website, including Upwork. Users are responsible for
+ * ensuring that their use of this code complies with all applicable laws and the terms
+ * of service of any target website. The author assumes no liability for any misuse
+ * or consequences arising from the use of this code.
+ */
+
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
-import { rl, askQuestion } from './inputHelper.js';
+// import { rl, askQuestion } from './inputHelper.js';
 
 puppeteer.use(StealthPlugin());
 
