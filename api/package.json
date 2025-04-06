@@ -1,16 +1,18 @@
 {
     "name": "api",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "server.js",
     "type": "module",
     "scripts": {
-        "dev": "node --env-file=../.env server.js"
+        "start": "node server.js --port=$PORT",
+        "dev": "node server.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "description": "",
     "dependencies": {
+        "dotenv": "^16.4.7",
         "express": "^5.1.0"
     }
 }
